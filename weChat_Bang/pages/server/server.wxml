@@ -1,0 +1,74 @@
+<view class="containerbox">
+  <view class="wrap">
+    <view class="title">{{names.title}}</view>
+    <block class="list" wx:for="{{list0}}" wx:key="item" >
+    <view class="item" data-text="{{item.name}}" bindtap="order">
+      <image src="{{item.image}}" data-text="{{item.name}}"></image>
+      <text class="desc" data-text="{{item.name}}">{{item.name}}</text>
+    </view>
+    </block>
+  </view>
+  <view class="wrap">
+    <view class="title">{{names.title_1}}</view>
+    <block wx:for="{{list1}}" wx:key="item">
+    <view class="item" data-text="{{item.name}}" bindtap="order">
+      <image src="{{item.image}}" data-text="{{item.name}}"></image>
+      <text class="desc" data-text="{{item.name}}">{{item.name}}</text>
+    </view>
+    </block>
+  </view>
+  <view class="wrap">
+    <view class="title">{{names.title_2}}</view>
+    <block wx:for="{{list2}}" wx:key="item">
+    <view class="item" data-text="{{item.name}}" bindtap="order">
+      <image src="{{item.image}}" data-text="{{item.name}}"></image>
+      <text class="desc" data-text="{{item.name}}">{{item.name}}</text>
+    </view>
+    </block>
+  </view>
+  <view class="wrap">
+    <view class="title">{{names.title_3}}</view>
+    <block wx:for="{{list3}}" wx:key="item">
+    <view class="item" data-text="{{item.name}}" bindtap="order">
+      <image src="{{item.image}}" data-text="{{item.name}}"></image>
+      <text class="desc" data-text="{{item.name}}">{{item.name}}</text>
+    </view>
+    </block>
+  </view>
+  <view class="wrap">
+    <view class="title">{{names.title_4}}</view>
+    <block wx:for="{{list4}}" wx:key="item">
+    <view class="item" data-text="{{item.name}}" bindtap="order">
+      <image src="{{item.image}}" data-text="{{item.name}}"></image>
+      <text class="desc" data-text="{{item.name}}">{{item.name}}</text>
+    </view>
+    </block>
+  </view>
+  <view class="wrap">
+    <view class="title">{{names.title_5}}</view>
+    <block wx:for="{{list5}}" wx:key="item">
+    <view class="item" data-text="{{item.name}}" bindtap="order">
+      <image src="{{item.image}}" data-text="{{item.name}}"></image>
+      <text class="desc" data-text="{{item.name}}">{{item.name}}</text>
+    </view>
+    </block>
+  </view>
+  <view class="wrap">
+    <view class="title">{{names.title_6}}</view>
+    <block wx:for="{{list6}}" wx:key="item">
+    <view class="item" data-text="{{item.name}}" bindtap="order">
+      <image src="{{item.image}}" data-text="{{item.name}}"></image>
+      <text class="desc" data-text="{{item.name}}">{{item.name}}</text>
+    </view>
+    </block>
+  </view>
+  <view class="wrap">
+    <view class="title">{{names.title_7}}</view>
+    <block wx:for="{{list7}}" wx:key="item">
+    <view class="item" data-text="{{item.name}}" bindtap="order">
+      <image src="{{item.image}}" data-text="{{item.name}}"></image>
+      <text class="desc" data-text="{{item.name}}">{{item.name}}</text>
+    </view>
+    </block>
+  </view>
+</view>
